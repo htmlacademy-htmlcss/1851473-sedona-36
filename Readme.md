@@ -1,7 +1,7 @@
 # Личный проект «Седона»
 
-* Студент: [Игорь Абрамович](https://up.htmlacademy.ru/htmlcss/36/user/1851473).
-* Наставник: `Неизвестно`.
+- Студент: [Игорь Абрамович](https://up.htmlacademy.ru/htmlcss/36/user/1851473).
+- Наставник: `Екатерина Комнатная`. (https://htmlacademy.ru/profile/id215761).
 
 ---
 
