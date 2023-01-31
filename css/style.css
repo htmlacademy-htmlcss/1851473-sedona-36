@@ -1,0 +1,164 @@
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-400.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/ptsans-700.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  color: #333333;
+}
+
+.hero {
+  background-color: indigo;
+}
+
+.navigation-link {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.navigation-list {
+  list-style: none;
+}
+
+.btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  border-radius: 4px;
+  display: inline-block;
+  border: none;
+  font-family: inherit;
+}
+
+.btn-brown {
+  background: #756157;
+}
+
+.btn-blue {
+  background: #82B3D3;
+}
+
+.title {
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+  color: #000000;
+  font-weight: 700;
+}
+
+.subtitle {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.benefits-list {
+  list-style: none;
+}
+
+.benefits-item-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.benefits-item-blue {
+  color: #FFFFFF;
+  background-color:#82B3D3;
+}
+
+.benefits-item-blue .benefits-item-title {
+  color: #FFFFFF;
+}
+
+.quality-item-title {
+  font-size: 24px;
+  line-height: 28px;
+  text-transform: uppercase;
+  color: #000000;
+}
+
+.quality-list {
+  list-style: none;
+}
+
+.search-btn {
+  font-size: 20px;
+  line-height: 36px;
+}
+
+.subscribe {
+  background-color: indigo;
+  color: #FFFFFF;
+}
+
+.subscribe-title {
+  color: #FFFFFF;
+}
+
+.subscribe-description {
+  font-size: 22px;
+  line-height: 26px;
+}
+
+.subscribe-btn {
+  font-size: 20px;
+  line-height: 36px;
+  border-radius: 0px 4px 4px 0px;
+}
+
+.form-input {
+  font-family: inherit;
+  font-size: 18px;
+  line-height: 24px;
+  color: #000000;
+  width: 452px;
+  height: 52px;
+}
+
+.form-input::placeholder {
+  opacity: 0.6;
+  color: #000000;
+}
+
+.phone-link {
+  font-size: 40px;
+  line-height: 40px;
+  text-transform: uppercase;
+  color: #000000;
+  text-decoration: none;
+}
+
+
