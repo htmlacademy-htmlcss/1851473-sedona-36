@@ -147,12 +147,17 @@ body {
   line-height: 28px;
   text-transform: uppercase;
   color: #000000;
+  margin-top: 0;
 }
 
 .benefits-item-blue {
   display: flex;
   color: #ffffff;
   background-color: #82b3d3;
+}
+
+.benefits-item-blue img {
+  vertical-align: bottom;
 }
 
 .benefits-item-wrapper {
