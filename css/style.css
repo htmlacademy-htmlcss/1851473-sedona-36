@@ -1,8 +1,9 @@
 @font-face {
   font-family: "PT Sans";
   src: url("../fonts/ptsans-400.woff2") format("woff2");
-  font-weight: normal;
+  font-weight: 400;
   font-style: normal;
+  font-display: swap;
 }
 
 @font-face {
@@ -10,6 +11,7 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
+  font-display: swap;
 }
 
 *,
@@ -294,6 +296,8 @@ body {
 .benefits-item-blue img {
   vertical-align: bottom;
   width: 800px;
+  height: 100%;
+  object-fit: cover;
 }
 
 .benefits-item-wrapper {
@@ -697,16 +701,19 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-bottom: 48px;
+  padding-bottom: 25px;
   position: relative;
+  flex-wrap: wrap;
 }
 
 .alert {
+  display: block;
   font-size: 16px;
+  width: 100%;
   line-height: 21px;
-  position: absolute;
-  top: 50px;
-  left: 157px;
+  padding-left: 157px;
+  min-height: 21px;
+  margin-top: 2px;
 }
 
 .error {
